@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- 검색엔진 완전 차단 -->
+<meta content="noindex, nofollow, noarchive, nosnippet, noimageindex" name="robots"/>
+<meta content="noindex, nofollow, noarchive, nosnippet, noimageindex" name="googlebot"/>
+<meta content="noindex, nofollow, noarchive, nosnippet, noimageindex" name="bingbot"/>
+<meta content="noindex, nofollow, noarchive, nosnippet" name="yandex"/>
+<meta content="noindex, nofollow" name="duckduckbot"/>
+<!-- 기존 title과 다른 내용들... -->
+<title>학교 7대안전 고시문 QUIZ</title>
+<style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #333;
+        }
+        
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .instruction {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 30px;
+            color: #856404;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background-color: #DBE2EF;
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .section-content {
+            padding: 20px;
+        }
+        
+        .item {
+            margin-bottom: 20px;
+        }
+        
+        .item-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 15px;
+            font-family: inherit;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        
+        .input-field:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        
+        .input-field.correct {
+            border-color: #28a745;
+            background-color: #f8fff8;
+        }
+        
+        .input-field.incorrect {
+            border-color: #dc3545;
+            background-color: #fff8f8;
+        }
+        
+        .feedback {
+            margin-top: 10px;
+            font-size: 14px;
+            min-height: 20px;
+        }
+        
+        .feedback.correct {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .feedback.incorrect {
+            color: #dc3545;
+        }
+        
+        .correct-text {
+            background-color: #d4edda;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .incorrect-text {
+            background-color: #f8d7da;
+            padding: 2px 4px;
+            border-radius: 3px;
+            text-decoration: line-through;
+        }
+        
+        .success-icon {
+            color: #28a745;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .definition-box {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<!-- 네비게이션 바 -->
+<div style="position: fixed; top: 10px; right: 10px; z-index: 1000; display: flex; gap: 10px;">
+<button onclick="window.open('index.html', '_blank')" style="background: #112D4E; color: white; border: none; padding: 8px 15px; border-radius: 15px; cursor: pointer; font-size: 12px; text-decoration: none;">🏠 홈</button>
+<button onclick="window.open('nuri.html', '_blank')" style="background: #112D4E; color: white; border: none; padding: 8px 15px; border-radius: 15px; cursor: pointer; font-size: 12px;">🎯 누리과정</button>
+<button onclick="window.open('child.html', '_blank')" style="background: #112D4E; color: white; border: none; padding: 8px 15px; border-radius: 15px; cursor: pointer; font-size: 12px;">🛡️ 아동복지법</button>
+<button onclick="window.open('safety.html', '_blank')" style="background: #112D4E; color: white; border: none; padding: 8px 15px; border-radius: 15px; cursor: pointer; font-size: 12px;">⚡ 7대안전</button>
+</div>
+<div class="container">
+<div class="header">
+<div class="title">학교 7대안전 고시문 QUIZ</div>
+</div>
+<div class="instruction" style="background-color: #112D4E; border: 1px solid #112D4E; border-radius: 5px; padding: 15px; margin-bottom: 30px; color: #F9F7F7; font-weight: bold;">
+            * 각 항목의 내용을 정확히 입력하고 엔터를 누르세요. 정답 여부가 즉시 표시됩니다.
+        </div>
+<div class="section">
+<div class="section-header">생활안전교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>교육 시간: 연간 </span><input class="input-field" data-correct="13" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="2" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="교실, 가정, 등하굣길에서 안전하게 생활하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="안전한 장소를 알고 안전하게 놀이하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="놀이기구나 놀잇감, 도구의 바른 사용법을 알고 안전하게 사용하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="실종, 유괴, 미아 상황 알고 도움 요청하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>5. <input class="input-field" data-correct="몸에 좋은 음식, 나쁜 음식 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">교통안전교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>교육 시간: 연간 </span><input class="input-field" data-correct="10" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="3" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="표지판 및 신호등의 의미 등 교통안전 규칙 알고 지키기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="안전한 도로 횡단법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="어른과 손잡고 걷기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="교통수단(자전거, 통학버스 등) 안전하게 이용하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">폭력예방 및 신변보호교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>교육 시간: 연간 </span><input class="input-field" data-correct="8" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="2" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="내 몸의 소중함과 정확한 명칭 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="좋은 느낌과 싫은 느낌 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="성폭력 예방 및 대처방법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="나와 내 주변사람(가족, 친구 등)의 소중함을 알고 사이좋게 지내기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>5. <input class="input-field" data-correct="아동학대 신고 및 대처방법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">약물 및 사이버 중독 예방교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>약물 중독 예방 교육 시간: 연간 </span><input class="input-field" data-correct="5" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>사이버 중독 예방 교육 시간: 연간 </span><input class="input-field" data-correct="5" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="2" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="올바른 약물 사용법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="생활주변의 해로운 약물·화학제품 만지거나 먹지 않기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="T.V, 인터넷, 통신기기(스마트폰 등) 등의 중독 위해성을 알고 바르게 사용하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">재난안전교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>교육 시간: 연간 </span><input class="input-field" data-correct="6" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="2" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="화재의 원인과 예방법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="화재 발생 시 유의사항 및 대처법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="각종 자연 재난 및 사고 적절하게 대처하는 방법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="각종 재난 유형별 대비 훈련 실시" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">직업안전교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>교육 시간: 연간 </span><input class="input-field" data-correct="2" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="1" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="일터 안전의 중요성 및 안전을 위해 지켜야 할 일 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="일터 안전시설 현장 체험하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">응급처치교육</div>
+<div class="section-content"><div style="margin-top: 20px; font-weight: bold;">교육 시간 및 횟수:</div><div><span>교육 시간: 연간 </span><input class="input-field" data-correct="2" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>시간 이상</span><div class="feedback"></div></div><div><span>횟수: 학기당 </span><input class="input-field" data-correct="1" onkeydown="handleEnter(event, this)" style="width: 80px;" type="text" onblur="checkAnswer(this)"/><span>회 이상</span><div class="feedback"></div></div>
+<div style="margin-top: 20px; font-weight: bold;">교육 내용:</div>
+<div>1. <input class="input-field" data-correct="응급상황 알기 및 도움 요청하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="119신고와 주변에 알리기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="손씻기와 소독하기 등 청결유지 하기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="상황별 응급처치 방법 알기" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+</div>
+</div>
+<div class="section">
+<div class="section-header">교육방법</div>
+<div class="section-content">
+<div>1. <input class="input-field" data-correct="학생 발달 수준을 고려한 전문가 또는 교원 설명" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>2. <input class="input-field" data-correct="학생 참여 수업 방법 연계 적용" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div style="padding-left: 20px;">(예시 : <input class="input-field" data-correct="역할극, 프로젝트 학습, 플립러닝" onkeydown="handleEnter(event, this)" style="width: 70%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/> 등)<div class="feedback"></div></div>
+<div>3. <input class="input-field" data-correct="교내외 체험교육 또는 현장학습" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="일상생활을 통한 반복 지도" onkeydown="handleEnter(event, this)" style="width: 80%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/> 및<div class="feedback"></div></div>
+</div>
+</div>
+</div>
+<script>
+        function handleEnter(event, input) {
+            if (event.key === 'Enter') {
+        event.preventDefault();
+                checkAnswer(input);
+            }
+        }
+        
+        function checkAnswer(input) {
+            const userAnswer = input.value.trim().replace(/\.$/, '');
+            const correctAnswer = input.dataset.correct.replace(/\.$/, '');
+            const feedbackDiv = input.parentElement.querySelector('.feedback');
+            
+            if (!userAnswer) {
+                feedbackDiv.innerHTML = '';
+                input.className = 'input-field';
+                return;
+            }
+            
+            if (correctAnswer === '') {
+                input.className = 'input-field';
+                feedbackDiv.innerHTML = '<span style="color: #666;">정답이 설정되지 않았습니다.</span>';
+                feedbackDiv.className = 'feedback';
+                return;
+            }
+            
+            if (userAnswer === correctAnswer) {
+                input.className = 'input-field correct';
+                feedbackDiv.innerHTML = '<span class="correct">✓ 정답입니다!</span>';
+                feedbackDiv.className = 'feedback correct';
+            } else {
+                input.className = 'input-field incorrect';
+                
+                const differences = findDifferences(userAnswer, correctAnswer);
+                feedbackDiv.innerHTML = `<span style="color: #333;">${differences}</span>`;
+                feedbackDiv.className = 'feedback incorrect';
+            }
+        }
+        
+        function findDifferences(userText, correctText) {
+            const userWords = userText.split(' ');
+            const correctWords = correctText.split(' ');
+            
+            let result = [];
+            let userIndex = 0;
+            
+            for (let correctIndex = 0; correctIndex < correctWords.length; correctIndex++) {
+                const correctWord = correctWords[correctIndex];
+                let found = false;
+                
+                for (let i = userIndex; i < userWords.length; i++) {
+                    if (userWords[i] === correctWord) {
+                        for (let j = userIndex; j < i; j++) {
+                            result.push('<span class="incorrect-text">' + userWords[j] + '</span>');
+                        }
+                        result.push(correctWord);
+                        userIndex = i + 1;
+                        found = true;
+                        break;
+                    }
+                }
+                
+                if (!found) {
+                    result.push('<span style="background-color: #ffeb3b; padding: 2px 4px; border-radius: 3px;">' + correctWord + '</span>');
+                }
+            }
+            
+            for (let i = userIndex; i < userWords.length; i++) {
+                result.push('<span class="incorrect-text">' + userWords[i] + '</span>');
+            }
+            
+            return result.join(' ');
+        }
+        
+        window.addEventListener('load', function() {
+            const firstInput = document.querySelector('.input-field');
+            if (firstInput) {
+                firstInput.focus();
+            }
+        });
+</script>
+<div class="footer">이 프로그램은 학교 7대안전 교육기준 학습을 위해 제작되었습니다.<br/>Copyright © 출판사 오르다꿈. All rights reserved.</div>
+</body>
+</html>
