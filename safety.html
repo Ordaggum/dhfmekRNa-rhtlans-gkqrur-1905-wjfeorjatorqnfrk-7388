@@ -259,7 +259,7 @@
 <div>2. <input class="input-field" data-correct="학생 참여 수업 방법 연계 적용" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
 <div style="padding-left: 20px;">(예시 : <input class="input-field" data-correct="역할극, 프로젝트 학습, 플립러닝" onkeydown="handleEnter(event, this)" style="width: 70%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/> 등)<div class="feedback"></div></div>
 <div>3. <input class="input-field" data-correct="교내외 체험교육 또는 현장학습" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
-<div>4. <input class="input-field" data-correct="일상생활을 통한 반복 지도" onkeydown="handleEnter(event, this)" style="width: 80%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/> 및<div class="feedback"></div></div>
+<div>4. <input class="input-field" data-correct="일상생활을 통한 반복 지도 및 부모 교육 연계" onkeydown="handleEnter(event, this)" style="width: 90%; margin-bottom: 5px;" type="text" onblur="checkAnswer(this)"/><div class="feedback"></div></div>
 </div>
 </div>
 </div>
@@ -271,9 +271,20 @@
             }
         }
         
+        function normalizePunctuation(text) {
+            return text
+                .replace(/，/g, ',')
+                .replace(/．/g, '.')
+                .replace(/（/g, '(')
+                .replace(/）/g, ')')
+                .replace(/・/g, '·')
+                .replace(/•/g, '·')
+                .replace(/　/g, ' ');
+        }
+
         function checkAnswer(input) {
-            const userAnswer = input.value.trim().replace(/\.$/, '');
-            const correctAnswer = input.dataset.correct.replace(/\.$/, '');
+            const userAnswer = normalizePunctuation(input.value.trim()).replace(/\.$/, '');
+            const correctAnswer = normalizePunctuation(input.dataset.correct).replace(/\.$/, '');
             const feedbackDiv = input.parentElement.querySelector('.feedback');
             
             if (!userAnswer) {
